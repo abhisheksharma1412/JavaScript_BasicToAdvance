@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document Object Model</title>
+    <!-- 1=====) <script src="./dom.css"></script> but this is very inefficient  -->
+    <!-- because if we use any html tag inside the script it will not load, it takes more time because script and html are load one by one  -->
+
+    <!-- 3======) <script src="./dom.css" async></script> by adding async our script and html load simultaneously, but when our script tag load completly no matter our html is load or not, html code remains incompletly, this will leads to problem, like we had faced in first approach -->
+
+    <!-- 4======) <script src="./dom.css" defer></script> this is the most effiecient appraoch in all four, by adding defer our script and html load simultaneously,
+    in which which both of them load completly rather than relying on other tag -->
+    <script src="./dom.js" defer></script> 
+</head>
+<body>
+    
+<div class="container">
+    <h1 class="heading">Hardik Sharma</h1>
+</div>
+
+
+  <!-- 2=====)  <script src="./dom.css"></script> this is effiecient, and this we use normally -->
+</body>
+</html>

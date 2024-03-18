@@ -1,0 +1,28 @@
+.container{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+   
+}
+
+.color{
+    font-size: 2.5rem;
+    padding: 5px;
+    font-weight: bolder;
+    border: 1px black dashed;
+    background-color:white;
+    /* filter:blur(8px) ;
+    -webkit-backdrop-filter: blur(8px); */
+}
+
+.colorchanger{
+    font-size: 1.5rem;
+    font-weight: 400;
+    padding: 5px;
+    margin: 10px 0px;
+    background-clip:border-box;
+    background:rgb(25, 167, 148) ;
+    color:rgb(239, 239, 236);
+}

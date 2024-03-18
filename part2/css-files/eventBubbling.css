@@ -1,0 +1,43 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+
+}
+
+.grandparent{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 60vh;
+    width: 60vw;
+    background-color: aquamarine;
+}
+
+.parent{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: blueviolet;
+    height: 30vh;
+    width: 30vw;
+}
+
+.child{
+    background-color: burlywood;
+    height: 15vh;
+    width: 15vw;
+}
+.child>p{
+    margin:30% 30% ;
+}
